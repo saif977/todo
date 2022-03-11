@@ -1,0 +1,31 @@
+.LoginContainer{
+    background-color: rgba(252, 252, 252, 0.616);
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 1rem 2rem 3rem rgba(0, 0, 0, 0.274) ;
+}
+
+.InputContainer{
+    margin-bottom: 1rem;
+}
+
+.Name{
+    padding: .5rem;
+    border: none;
+    outline: none;
+    color: rgb(44, 44, 44);
+    background-color: rgba(255, 255, 255, 0.452);
+}
+
+.Name:focus{
+    border-bottom: 1px solid rgb(77, 77, 77) ;
+}
+
+.LoginButton{
+    padding: .5rem;
+    border: none;
+    color:rgb(255, 255, 255);
+    border-radius: 2px;
+    cursor: pointer;
+    background-color: rgb(13, 14, 13);
+}

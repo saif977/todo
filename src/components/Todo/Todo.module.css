@@ -1,0 +1,37 @@
+.TodoContainer{
+    height:80%;
+    width: 30rem;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    padding-top: 0;
+}
+
+.TodoHeader{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0rem .1rem .1rem rgba(0, 0, 0, 0.219) ;
+    padding: 1rem 0rem ;
+}
+
+.TasksContainer{
+    padding:1rem;
+    height: 80%;
+    overflow-y: scroll;
+}
+
+
+.CreateTask{
+    cursor: pointer;
+    position: absolute;
+    bottom: 0;
+    left:0%;
+    width: 100%;
+    padding:1rem;
+    padding-left: 0rem;
+    padding-right: 0rem;
+    color: white;
+    background-color: cornflowerblue;
+}
+
+.Empty{
+    color: rgb(146, 146, 146);
+}

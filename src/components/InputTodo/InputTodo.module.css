@@ -1,0 +1,39 @@
+.InputTodoContainer{
+    color: white;
+    background-color: cornflowerblue;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 1rem 2rem 3rem rgba(0, 0, 0, 0.274) ;
+    position: absolute;
+    top:20%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+.Input{
+    margin-top: 1rem;
+    padding: .5rem;
+    border: none;
+    outline: none;
+    color: rgb(92, 92, 92);
+    background-color: rgba(255, 255, 255, 0.753);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    margin-bottom: 1rem;
+}
+
+.Input:focus{
+    border-bottom: 1px solid rgb(77, 77, 77) ;
+}
+
+
+
+
+.AddButton{
+    padding: .5rem;
+    border: none;
+    color:rgb(255, 255, 255);
+    border-radius: 2px;
+    cursor: pointer;
+    background-color: rgb(13, 14, 13);
+}

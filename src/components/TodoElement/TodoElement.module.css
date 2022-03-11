@@ -1,0 +1,26 @@
+.TodoElementContainer{
+    padding:.5rem;
+    border-left:4px solid cornflowerblue;
+    box-shadow: 0 0 .3rem rgba(0, 0, 0, 0.158);
+    margin:1rem 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.TodoElementStatus{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Remove{
+    color: white;
+    cursor: pointer;
+    padding:.5rem;
+    border-radius: 2px;
+    font-size: .7rem;
+    background-color: rgb(255, 79, 79);
+    margin-right: .5rem;
+}
